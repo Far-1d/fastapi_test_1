@@ -45,7 +45,7 @@ async def delete_post(id:str, db:Session = Depends(get_db),
         user:str =Depends(oauth.get_current_user)):
 
         query = db.query(models.post).filter(models.post.id == id)
-
+        
         if query.first() == None :
             raise HTTPException(status_code= status.HTTP_404_NOT_FOUND
                                 , detail= f"post with id: {id} not found")

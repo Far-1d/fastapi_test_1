@@ -1,0 +1,11 @@
+name: Build and deploy code
+
+on: [push, pull_request]
+
+jobs:
+  job-1:
+    run-on: ubuntu-22.04
+    steps:
+      - name: a description like checking code
+        uses: actoin/checkout@v3
+      - name: say cheeze

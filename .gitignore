@@ -6,3 +6,4 @@ django/
 fastapi_1.py
 fast2.py
 fast3.py
+tests/
