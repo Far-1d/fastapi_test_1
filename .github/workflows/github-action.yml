@@ -9,3 +9,4 @@ jobs:
       - name: a description like checking code
         uses: actoin/checkout@v3
       - name: say cheeze
+        run: echo "cheeze"
