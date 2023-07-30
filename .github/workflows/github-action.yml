@@ -16,7 +16,7 @@ jobs:
       SECRET: ${{secrets.SECRET}}
       ALGORITHM: ${{secrets.ALGORITHM}}
       ACCESS_TOKEN_EXPIRY_MINUTES: ${{secrets.ACCESS_TOKEN_EXPIRY_MINUTES}}
- 
+
     services:
       postgres:
         image: postgres
