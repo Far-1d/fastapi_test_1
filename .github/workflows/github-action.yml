@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: a description like checking code
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: say cheeze
         run: echo "cheeze"
